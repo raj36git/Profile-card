@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Card</title>
+  </head>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      background-color: #454343;
+      /* color: #ffffff; */
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .card {
+      background-color: #ffffff;
+      width: 250px;
+      height: 370px;
+      text-align: center;
+      border-radius: 11px;
+    }
+    .profile {
+      background-color: #d9d8d8;
+      padding: 1px 12px;
+      border-radius: 9px;
+    }
+    .profile img {
+      height: 130px;
+      margin-bottom: -18px;
+      margin-top: 11px;
+      border: 3px solid #ffffff;
+      border-radius: 50%;
+      background-color: yellow;
+    }
+    .profile h3 {
+      color: #000000;
+      margin-bottom: -8px;
+    }
+    .address #ktm {
+      margin-bottom: -11px;
+      font-size: 16px;
+    }
+    .address #ktm:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    .address #nepal:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    .social a {
+      margin-right: 6px;
+    }
+    .social img:hover {
+      border-radius: 50%;
+      background-color: #0982cd;
+      box-shadow: #454343;
+    }
+    button {
+      background-color: #0982cd;
+      color: #ffffff;
+      cursor: pointer;
+      border: none;
+      width: 70%;
+      padding: 5px;
+      border-radius: 8px;
+      margin-top: 7px;
+    }
+    button:hover {
+      background-color: #02619c;
+      width: 60%;
+    }
+  </style>
+  <body>
+    <div class="card">
+      <div class="profile">
+        <img src="./pf.png" alt="" />
+        <h3>Raj Yadav</h3>
+        <p>Full-Stack Developer</p>
+      </div>
+      <div class="address">
+        <p id="ktm">Kathmandu</p>
+        <p id="nepal">Nepal</p>
+      </div>
+      <div class="social">
+        <a href="https://github.com/raj36git" target="_blank"
+          ><img src="./github.png" height="28px" alt="github"
+        /></a>
+        <a href="#"><img src="./twitter.png" height="28px" alt="" /></a>
+        <a href="#"><img src="./web.png" height="28px" alt="" /></a>
+      </div>
+      <button>Contact me</button>
+    </div>
+  </body>
+</html>
